@@ -8,9 +8,8 @@ fun main(args: Array<String>) {
         println("")
     } catch (e: Exception) {
         println("Вы ввели не число")
-        print("Это не ")
     }
-    if (likes % 10 == 1) {
+    if (likes % 10 == 1 && likes % 100 != 11) {
         println("Нравится $likes человеку")
     } else {
         println("Нравится $likes людям")
